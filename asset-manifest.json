@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Blog-App/static/css/main.9a2bcb22.chunk.css",
+    "main.js": "/Blog-App/static/js/main.dd443cf7.chunk.js",
+    "main.js.map": "/Blog-App/static/js/main.dd443cf7.chunk.js.map",
+    "runtime-main.js": "/Blog-App/static/js/runtime-main.7c52bb1e.js",
+    "runtime-main.js.map": "/Blog-App/static/js/runtime-main.7c52bb1e.js.map",
+    "static/js/2.02a6dc0a.chunk.js": "/Blog-App/static/js/2.02a6dc0a.chunk.js",
+    "static/js/2.02a6dc0a.chunk.js.map": "/Blog-App/static/js/2.02a6dc0a.chunk.js.map",
+    "index.html": "/Blog-App/index.html",
+    "precache-manifest.912cf37447b6441c12ad21659d32ff71.js": "/Blog-App/precache-manifest.912cf37447b6441c12ad21659d32ff71.js",
+    "service-worker.js": "/Blog-App/service-worker.js",
+    "static/css/main.9a2bcb22.chunk.css.map": "/Blog-App/static/css/main.9a2bcb22.chunk.css.map",
+    "static/js/2.02a6dc0a.chunk.js.LICENSE.txt": "/Blog-App/static/js/2.02a6dc0a.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/Blog-App/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c52bb1e.js",
+    "static/js/2.02a6dc0a.chunk.js",
+    "static/css/main.9a2bcb22.chunk.css",
+    "static/js/main.dd443cf7.chunk.js"
+  ]
+}
