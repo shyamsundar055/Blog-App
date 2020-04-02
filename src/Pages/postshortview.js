@@ -16,7 +16,7 @@ function PostShortView(props) {
             <p>
                 {props.postItem.body}
             </p>
-            <Link to={"/posts/" + props.postItem.id}>Continue reading...</Link>
+            <Link to={`${process.env.PUBLIC_URL}/posts/${props.postItem.id}`}>Continue reading...</Link>
             <hr />
         </div>
     )

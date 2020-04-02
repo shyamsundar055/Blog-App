@@ -13,11 +13,11 @@ function MasterComponent() {
     return (
         <>
             <Switch>
-                <Route path="/posts/:id" children={<PostDetailView />} />
-                <Route path="/about">
+                <Route path={`${process.env.PUBLIC_URL}/posts/:id`}children={<PostDetailView />} />
+                <Route path={`${process.env.PUBLIC_URL}/about`}>
                     <About />
                 </Route>
-                <Route exact path="/">
+                <Route exact path={`${process.env.PUBLIC_URL}/`}>
                     <PostListComponent />
                 </Route>
                 <Route component={PageNotFound} />

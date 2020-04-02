@@ -19,10 +19,10 @@ function NavBar(props) {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item">
-                        <Link className="nav-link" to="/">Home</Link> 
+                        <Link className="nav-link" to={`${process.env.PUBLIC_URL}/`}>Home</Link> 
                     </li> 
                     <li className="nav-item">
-                        <Link className="nav-link" to="/about">About</Link> 
+                        <Link className="nav-link" to={`${process.env.PUBLIC_URL}/about`}>About</Link> 
                     </li> 
                 </ul> 
             </div>
@@ -34,7 +34,7 @@ function NavBar(props) {
             {
                 props.path.length > 0 ?
                 <li className={props.path.length > 0 ? "breadcrumb-item" :"breadcrumb-item active"} >
-                    <Link to="/">Home</Link> 
+                    <Link to={`${process.env.PUBLIC_URL}/`}>Home</Link> 
                 </li>:""
             }
             {

@@ -13,7 +13,7 @@ function PageNotFound(){
 				<h1>404</h1>
 			</div>
 			<h2>Oops! Nothing was found</h2>
-			<p>The page you are looking for might have been removed had its name changed or is temporarily unavailable. <Link className="nav-link" to="/">Retunr to Homepage</Link> </p> 
+			<p>The page you are looking for might have been removed had its name changed or is temporarily unavailable. <Link className="nav-link" to={`${process.env.PUBLIC_URL}/`}>Retunr to Homepage</Link> </p> 
 		</div>
 	</div>
 
