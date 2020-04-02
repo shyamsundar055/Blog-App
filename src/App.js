@@ -13,7 +13,7 @@ import FooterComponent from './Components/footerComponent'
 function App() {
 
   return (
-    <Router>
+    <Router basename="/Blog-app">
       <Route path="/">
         <HeaderComponent />
         <MasterComponent />
